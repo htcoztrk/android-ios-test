@@ -109,7 +109,7 @@ public class HookImpl {
         } else {
             //String hubURL = "http://hub.testinium.io/wd/hub";
             //String hubURL = "http://localhost:4444/wd/hub";
-            String hubURL ="https://hubclouddev.testinium.com/wd/hub";
+            String hubURL ="https://hubclouddev.testinium.com";
 
 
 
