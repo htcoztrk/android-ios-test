@@ -19,6 +19,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.MobilePlatform;
 import org.apache.commons.lang.StringUtils;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -151,7 +152,7 @@ public class HookImpl {
                 capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
                 capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
                 //---------------------------------------
-                //capabilities.setCapability(CapabilityType.PLATFORM, Platform.MAC);
+                capabilities.setCapability(CapabilityType.PLATFORM, Platform.MAC);
                 capabilities.setCapability("usePrebuiltWDA", true); //changed
                 // capabilities.setCapability("maxTypeFrequency", 5);
                 // capabilities.setCapability("key", System.getenv("key"));
