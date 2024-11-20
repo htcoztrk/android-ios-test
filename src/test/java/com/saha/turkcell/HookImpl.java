@@ -152,7 +152,7 @@ public class HookImpl {
                 capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
                 capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
                 //---------------------------------------
-                capabilities.setCapability(CapabilityType.PLATFORM, Platform.MAC);
+                //capabilities.setCapability(CapabilityType.PLATFORM, Platform.MAC);
                 capabilities.setCapability("usePrebuiltWDA", true); //changed
                 // capabilities.setCapability("maxTypeFrequency", 5);
                 // capabilities.setCapability("key", System.getenv("key"));
@@ -162,7 +162,7 @@ public class HookImpl {
                // capabilities.setCapability("key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");  //clouddev
                 capabilities.setCapability("key", "mehmetaksahin:b0fa2cca656533bb82e5978f677b4b4a");  //clouddev
                // capabilities.setCapability("key", System.getenv("key"));
-                capabilities.setCapability("testinium:appToken", System.getenv("appToken"));
+                //capabilities.setCapability("testinium:appToken", System.getenv("appToken"));
                 capabilities.setCapability("testinium:testID", System.getenv("testID"));
                 capabilities.setCapability("waitForAppScript", "$.delay(1000);");
                 capabilities.setCapability("bundleId", "com.pharos.Gratis");
