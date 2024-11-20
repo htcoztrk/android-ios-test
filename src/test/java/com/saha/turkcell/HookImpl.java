@@ -157,10 +157,10 @@ public class HookImpl {
                 // capabilities.setCapability("maxTypeFrequency", 5);
                 // capabilities.setCapability("key", System.getenv("key"));
                 // capabilities.setCapability("key", "mehmetaksahin:afbe7d859ad86b5149f75077c52035e3");
-                //capabilities.setCapability("key", "enesturan:39572507e9c3db2d6e975ae537a9c80b");
+                capabilities.setCapability("key", "mehmetaksahin:5f646c3d670e9f439874d71d56d1d5b8");
                 //capabilities.setCapability("key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");  //prod
                // capabilities.setCapability("key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");  //clouddev
-                capabilities.setCapability("key", "mehmetaksahin:b0fa2cca656533bb82e5978f677b4b4a");  //clouddev
+                //capabilities.setCapability("key", "mehmetaksahin:b0fa2cca656533bb82e5978f677b4b4a");  //clouddev
                // capabilities.setCapability("key", System.getenv("key"));
                 //capabilities.setCapability("testinium:appToken", System.getenv("appToken"));
                 capabilities.setCapability("testinium:testID", System.getenv("testID"));
